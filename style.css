@@ -21,6 +21,7 @@ nav{
     font-weight: bolder;
     left: 3vw;
     top: 2.4vh;
+    z-index: 5;
 }
 nav > a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
@@ -65,18 +66,20 @@ footer{
 
 .container{
     top: 8vh;
-    position: absolute;
     background-color: lightgray;
-    width: 90vw;
+    width: 75vw;
+    position: static;
     left: 5%;
     height: 95vh;
-    z-index: 1;
+    z-index: 5;
     text-align: center;
     padding: 3.5%;
+    height: auto;
 }
 
 .card{
-
+    position: static;
+    
 }
 
 /* extra small devices */

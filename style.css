@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 7vh;
+    text-align: center;
+    background-color: rgb(244, 194, 101);
+    border: 2px black solid;
+    position: fixed;
+    top: 0;
+}
+header>img{
+    max-height: 100%;
+}
+nav{
+    text-align: right;
+    display: inline;
+    position: absolute;
+    font-weight: bolder;
+    left: 3vw;
+    top: 2.4vh;
+}
+nav > a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2.5px;
+    word-spacing: 4px;
+    text-shadow: 8px 5px 16px #000000;
+    font-weight: bolder;
+}
+a:hover {
+    color: green;
+    font-size: 1.3em;
+    
+}
+#bars {
+    position: absolute;
+    text-align: left;
+    display: inline;
+    right: 3vw;
+    top: 2vh;
+    font-size: 2em;
+    text-shadow: 8px 5px 16px #000000;
+}
+
+footer{
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    word-spacing: 10px;
+    text-shadow: 8px 5px 16px #ffffff;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 4vh;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+
+.container{
+    top: 8vh;
+    position: absolute;
+    background-color: lightgray;
+    width: 90vw;
+    left: 5%;
+    height: 95vh;
+    z-index: 1;
+    text-align: center;
+    padding: 3.5%;
+}
+
+.card{
+
+}
+
+/* extra small devices */
+@media (max-width: 575.98px){
+    nav{
+        display: none;
+    }
+    /* .card{
+        display: inline-block;
+        margin: 1.5&;
+        width: 40%;
+        height: 200px;
+        background-color: beige;
+        border: 1px solid black;
+        border-radius: 2% */
+    }
+}
+
+/* ------------------------- */
+
+/* small devices */
+@media (min-width: 576px) and (max-width: 767.98px){
+    Rules
+}
+
+/* ------------------------- */
+
+/* medium devices */
+@media (min-width: 768px) and (max-width: 991.98px){
+    Rules
+}
+
+/* ------------------------- */
+
+/* large devices */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    Rules
+}
+
+/* ------------------------- */
+
+@media (min-width: 1200px){
+  /* .card{
+        display: inline-block;
+        margin: 1.5%;
+        width: 25%;
+        height: 200px;
+        background-color: beige;
+        border: 1px solid black;
+        border-radius: 2%;
+        text-align: center;
+    } */
+    
+}
+
+/* ------------------------- */
